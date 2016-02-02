@@ -1,0 +1,45 @@
+body {
+	background-image: url(retroVegas.jpg);
+	background-size: 100%;
+
+}
+
+h1 { 
+	font-family: 'Lobster', cursive; 
+	font-weight: 400;
+	font-size: 4rem;
+	color: white; 
+	float: right;
+	background-repeat: no-repeat;
+}
+
+.playerContainer div {
+	width: 100px;
+	background-color: white;
+	margin-left: 50px;
+}
+
+.dealerContainer div {
+	width: 100px;
+	background-color: white;
+}
+
+.dealerContainer div {
+	/*height: 100px;*/
+	background-color: grey;
+}
+
+#counter {
+	width: 100px;
+	background-color: white;
+}
+
+#dealerCounter {
+	background-color: white;
+	width: 100px;
+}
+
+#chipCounterID {
+	width: 100px;
+	background-color: white;
+}

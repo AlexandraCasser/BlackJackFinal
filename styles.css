@@ -1,0 +1,182 @@
+body {
+	background-image: url(CSS/images/retroVegas.jpg);
+	background-size: 100%;
+	/*background-repeat: no-repeat;*/
+	z-index: -1;
+	margin: 0;
+}
+
+/*.container {width: 20%; height:200px; background: blue;}
+
+.circle {
+border-radius:50%;
+  width: 100%;
+  height:100%;
+  background: white;
+}*/
+
+/*.circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}*/
+
+/*#textContainer { */
+
+	/*background-image: url(CSS/images/RetroSignBrownOnly.png);*/
+	/*/*background-size: cover;
+/*	background-size: 150%;*/
+	/*background-size: 75% auto;*/
+/*	background-repeat: no-repeat;
+	height: 100%;*/
+/*	height: 75%;
+	width: 75%;
+	float: center;
+	margin: 0 auto;*/
+	/* z-index: -1; 
+	float: right;*
+	/*margin-top: 25px;
+	padding-top: 10%;*/
+	/*background-color: grey;*/
+}
+
+#textContainer {
+    float: center;
+    margin: 5px;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    color: grey;
+} 
+
+/*#oval {
+	width: 200px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}*/
+
+
+/*#textContainer {
+    width: 220px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: grey;
+}*/
+
+h1 { 
+	font-family: 'Fontdiner Swanky', cursive; 
+	font-weight: 400;
+	font-size: 4rem;
+	color: white; 
+	display: inline-block;
+	/*display: block;*/
+	background-repeat: no-repeat;
+	padding-top: 15px;
+	/*margin-top: 30px;*/
+	/*margin: 0 auto;*/
+}
+
+.playerContainer  {
+	width: 75%;
+	/*background-color: white;*/
+	margin: 0 auto;
+	/*float: center;*/
+	/*padding-top: 50px;*/
+	font-family: 'Oregano', cursive;
+	font-weight: 300;
+	font-size: 1.25rem;
+	text-align: center;
+}
+
+.dealerContainer div {
+	width: 75%;
+	margin: 0 auto;
+	/*background-color: white;*/
+	font-weight: 300;
+}
+
+.dealerContainer div {
+	/*height: 100px;*/
+	background-color: grey;
+}
+
+#counter {
+	/*width: 25%;*/
+	/*background-color: white;*/
+	margin: 0 auto;
+	display: inline-block;
+}
+
+#dealerCounter {
+	/*background-color: white;*/
+	/*width: 25%;*/
+	margin: 0 auto;
+	display: inline-block;
+}
+
+#chipCounterID {
+	/*width: 25%;*/
+	/*background-color: white;*/
+	margin: 0 auto;
+
+}
+
+#yourScore {
+	/*width: 25%;*/
+	margin: 0 auto;
+	display: inline-block;
+}
+
+#dealersScore {
+	/*width: 25%;*/
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.type2  {
+	width: 200px;
+    height: 200px;
+    background: #A0D6B4;
+    border: 10px; 
+    border-color: #8B4513;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background: #A0D6B4;
+    padding: 20px; 
+    width: 65%;
+    height: 300px; 
+    margin: 0 auto;
+    border: 10px solid #654321;
+    position: relative;
+    margin-top: 100px;
+    /*padding-bottom: 100px;*/
+
+}
+
+#counterBlock {
+	margin: 0;
+}
+
+#myform {
+    text-align: center;
+    padding: 5px;
+    border: 1px dotted #ccc;
+    margin: 2%;
+}
+.qty {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+}
+input.qtyplus { width:25px; height:25px;}
+input.qtyminus { width:25px; height:25px;}
+
+#spade {
+	background-image: url(CSS/images/SpadeIcon.png);
+	background-repeat: no-repeat;
+}
